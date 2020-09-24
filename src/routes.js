@@ -7,7 +7,6 @@ const UsersController = require('./controllers/UsersController')
 
 //options routing config
 routes.get('/options', OptionsController.index)
-routes.get('/options', OptionsController.index)
 routes.get('/options/:id', OptionsController.show)
 routes.post('/options', OptionsController.store)
 routes.put('/options/:id', OptionsController.update)
